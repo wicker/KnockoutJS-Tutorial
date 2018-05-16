@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Knockout Tutorial Code</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <h1>Intro Tutorial</h1>
+
+  <p>First name: <strong data-bind="text: firstName">First Name</strong></p>
+  <p>Last name: <strong data-bind="text: lastName">Last Name</strong></p>
+
+  <p>First name: <strong data-bind="value: firstName">First Name</strong></p>
+  <p>Last name: <strong data-bind="value: lastName">Last Name</strong></p>
+
+  <p>Full name: <strong data-bind="text: fullName">Full Name</strong></p>
+
+  <button data-bind="click: capitalizeLastName">Go caps</button>
+
+  <script src="js/knockout-3.2.0.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
